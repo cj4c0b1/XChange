@@ -75,7 +75,7 @@ public class HuobiAdapters {
       currencies.put(currency, new CurrencyMetaData(scale, withdrawalFee));
     }
 
-    return new ExchangeMetaData(pairs, currencies, null, null, false);
+    return new ExchangeMetaData(pairs, currencies, null, null, false, null);
   }
 
   private static CurrencyPair adaptCurrencyPair(String currencyPair) {

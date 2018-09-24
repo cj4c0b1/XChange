@@ -308,7 +308,7 @@ public final class WexAdapters {
 
     RateLimit[] publicRateLimits =
         new RateLimit[] {new RateLimit(wexMetaData.publicInfoCacheSeconds, 1, TimeUnit.SECONDS)};
-    return new ExchangeMetaData(currencyPairs, currencies, publicRateLimits, null, false);
+    return new ExchangeMetaData(currencyPairs, currencies, publicRateLimits, null, false, null);
   }
 
   private static void addCurrencyMetaData(

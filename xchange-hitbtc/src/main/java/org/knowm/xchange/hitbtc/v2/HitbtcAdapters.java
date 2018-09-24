@@ -306,7 +306,7 @@ public class HitbtcAdapters {
       }
     }
 
-    return new ExchangeMetaData(currencyPairs, currencies, null, null, null);
+    return new ExchangeMetaData(currencyPairs, currencies, null, null, null, null);
   }
 
   public static FundingRecord adapt(HitbtcTransaction transaction) {
